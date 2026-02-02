@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & secrets
+.env
+.env.*
+
+# Git
+.git/
+.gitignore
+
+# Virtual environments
+venv/
+.venv/
+
+# Node (just in case)
+node_modules/
+
+# Vector DB / embeddings / data
+chroma_db/
+*.bin
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+logs/
+*.log
+tmp/
+
+# Jupyter
+.ipynb_checkpoints/
